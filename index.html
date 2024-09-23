@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LKBXOB Centered Text</title>
+    <title>LKBXOB Centered</title>
     <style>
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0; /* Gray background */
             margin: 0;
-            font-family: Arial, sans-serif;
+            background-color: #1e1e1e; /* VSCode dark theme */
+            color: transparent; /* Make text transparent */
+            font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+            font-size: 5rem; /* Adjust size as needed */
+            position: relative;
         }
-        .brand {
-            font-size: 5rem;
-            background: linear-gradient(90deg, #69C9F0, #EE1D52, #25F4EE); /* TikTok colors */
+
+        .text {
+            background: linear-gradient(90deg, black, aqua, white);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: colorChange 3s infinite alternate;
+            background-clip: text;
+            animation: gradientAnimation 5s ease infinite;
         }
-        @keyframes colorChange {
-            0% {
-                background-position: 0% 50%;
-            }
-            100% {
-                background-position: 100% 50%;
-            }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
     </style>
 </head>
 <body>
-    <div class="brand">LKBXOB</div>
+    <div class="text">LKBXOB</div>
 </body>
 </html>
