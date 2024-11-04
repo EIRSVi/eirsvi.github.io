@@ -14,16 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: EIRSVi # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: មានការអប់រំ ទើបមានការផ្លាស់ប្តូរ។ # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  To Be Educated Is To Be Changed.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "EIRSVi.github.io"
+url: "https://EIRSVi.github.io"
 
 github:
   username: github_username # change to your GitHub username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://cdn.bsky.app/img/avatar/plain/did:plc:7zm67iz4hjqrk6psvrcpecxx/bafkreien3alypxpgfn65l7pjeaqn4ejqdbv27bcwewbn4excnq6b3errxy@jpeg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
